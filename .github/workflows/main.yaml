@@ -1,17 +1,10 @@
-name: Greeting Workflow
+name: Greeting
 
-on:
-  push:
-      branches:
-            - main
-              workflow_dispatch:
+'on': [push, workflow_dispatch]
 
-              jobs:
-                greet:
-                    runs-on: ubuntu-latest
-                        steps:
-                              - name: Checkout repository
-                                      uses: actions/checkout@v4
-
-                                            - name: Say Hello
-                                                    run: echo "Hello from GitHub Actions 👋"I
+jobs:
+  greet:
+      runs-on: ubuntu-latest
+          steps:
+                - name: Say Hello
+                        run: echo "Hello from GitHub Actions 👋"
