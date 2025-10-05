@@ -164,7 +164,7 @@ This project is licensed under the **CDAC License**.
 ---
 
 ## 📧 Contact  
-For any queries or feedback, feel free to reach out at **hariomr615@.com**.  
+For any queries or feedback, feel free to reach out at **goutamgdy@gmail.com**.  
 
 ---
 
