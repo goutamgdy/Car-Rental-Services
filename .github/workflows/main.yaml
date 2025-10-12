@@ -1,10 +1,10 @@
 name: Greeting
 
-'on': [push, workflow_dispatch]
+on: [push, workflow_dispatch]
 
 jobs:
   greet:
-      runs-on: ubuntu-latest
-          steps:
-                - name: Say Hello
-                        run: echo "Hello from GitHub Actions 👋"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions 👋"
